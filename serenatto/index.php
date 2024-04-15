@@ -5,7 +5,7 @@ require "src/Repositorio/ProdutoRepositorio.php";
 
 $produtoRepositorio = new ProdutoRepositorio($pdo);
 $dadosCafe = $produtoRepositorio->opcoesCafe();
-$dadosCafe = $produtoRepositorio->opcoesAlmoco();
+$dadosAlmoco = $produtoRepositorio->opcoesAlmoco();
 
 ?>
 
